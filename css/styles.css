@@ -612,6 +612,14 @@ progress {
   height: auto;
 }
 
+.img-custom{
+  width: 100%;                
+  height: 290px;              
+  object-fit: cover;          
+  object-position: top center; 
+  display: block; 
+}
+
 .figure {
   display: inline-block;
 }
@@ -11015,6 +11023,7 @@ html {
   max-width: 25rem;
   border-radius: 0.5rem;
   overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.7);
 }
 .portfolio .portfolio-item .portfolio-item-caption {
   position: absolute;
@@ -11022,7 +11031,7 @@ html {
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: rgba(26, 188, 156, 0.9);
+  background-color: rgba(52, 152, 219, 0.9);
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
